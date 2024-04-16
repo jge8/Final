@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="about.html">About Overview</a></li>
+                        <li><a class="dropdown-item" href="experiences.html">Experiences</a></li>
+                        <li><a class="dropdown-item" href="resume.html">Resume</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Resume Section -->
+<div class="container mt-5">
+    <h2>My Resume</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Contact Information</h3>
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Email:</strong> john.doe@example.com</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/johndoe</p>
+        </div>
+        <div class="col-md-8">
+            <h3>Professional Experience</h3>
+            <h4>Senior Developer</h4>
+            <p><strong>XYZ Corp, New York, NY</strong></p>
+            <p>January 2015 - Present</p>
+            <ul>
+                <li>Lead developer in charge of managing complex software development projects.</li>
+                <li>Implemented innovative solutions that improved system efficiency by 35%.</li>
+            </ul>
+            <h4>Junior Developer</h4>
+            <p><strong>ABC Inc., Los Angeles, CA</strong></p>
+            <p>June 2010 - December 2014</p>
+            <ul>
+                <li>Supported senior developers with various development tasks and projects.</li>
+                <li>Contributed to software testing and debugging, ensuring robustness and reliability.</li>
+            </ul>
+            <h3>Education</h3>
+            <p><strong>Bachelor of Science in Computer Science</strong></p>
+            <p>University of California, Los Angeles</p>
+            <p>Graduated: 2010</p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 My Website:
+        <a class="text-dark" href="https://mywebsite.com/">mywebsite.com</a>
+    </div>
+</footer>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
